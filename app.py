@@ -60,6 +60,6 @@ def del_files():
                 os.remove(del_files_path)
 
 if __name__ == '__main__':
-    app.run()
+    app.run(debug=False,host='192.168.10.201',port=5000)
 
 
